@@ -1,0 +1,14 @@
+aside {
+    height: 100%;
+}
+
+.nav-image {
+    position: absolute;
+    width: 160px;
+    bottom: 45px;
+    left: 35px;
+}
+
+a {
+    cursor: pointer;
+}

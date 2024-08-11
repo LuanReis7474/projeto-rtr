@@ -1,0 +1,98 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+/* Cabeçalho */
+.site-header {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navegação */
+.site-nav {
+    margin-left: auto;
+}
+
+.site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.site-nav li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+    height: 100%;
+}
+
+.site-nav li:hover {
+    background-color: #ccc;
+}
+
+/* Dropdown Menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: max-content;
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu a {
+    padding: 10px;
+    white-space: nowrap;
+    display: block;
+}
+
+/* Ícone de Pesquisa */
+.search-icon {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon svg {
+    width: 24px;
+    height: 24px;
+    fill: black;
+}
+
+.search-icon:hover svg {
+    fill: #ccc;
+}

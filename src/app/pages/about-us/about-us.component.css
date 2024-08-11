@@ -1,0 +1,24 @@
+.colunas-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.coluna {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.coluna h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.coluna p {
+    margin: 0;
+}

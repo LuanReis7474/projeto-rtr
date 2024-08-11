@@ -1,0 +1,30 @@
+.wrapper {
+    position: relative;
+}
+
+.section {
+    position: relative;
+    margin-left: 0px;
+    transition: all 0.5s ease;
+    z-index: 0;
+    width: 100vw;
+}
+
+
+.wrapper.active .sidebar {
+    width: 62px;
+
+}
+
+.wrapper.active .section {
+    margin-left: 68px;
+}
+
+@media print {
+    .wrapper {
+
+        .section {
+            margin: 0;
+        }
+    }
+}
